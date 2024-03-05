@@ -64,7 +64,7 @@ public class ObjectAndClass {
         v1.model = "소나타";
         v1.year = 3;
         v1.price = 1199;
-
+        System.out.println(v1.model);
     }
 }
 
