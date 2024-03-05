@@ -15,10 +15,12 @@ public class Exam2 {
         // 출력 : 4
         int a = 12;
         int b = 5;
+        int y;
+        int c = 0;
 
-
-        for (int c = a-=b; c<=10; c++) {
-            System.out.println(c);
+        for (c = a-=b; c<=10; c++) {
+            c++;
         }
+        System.out.println(c);
     }
 }
