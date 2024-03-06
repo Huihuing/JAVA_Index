@@ -23,7 +23,7 @@ public class DoubleLoop {
             dan++;
         }*/
 
-        for (int dan2=2; dan2<=9; dan2++) {
+        for (int dan2=2; dan2<9; dan2++) {
             System.out.println("\n" + dan2 + "단");
             for (int i=1; i <=9; i++) {
                 System.out.println( dan2 +" X " + i + " = " + (dan2 * i));
