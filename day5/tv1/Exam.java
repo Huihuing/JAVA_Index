@@ -84,7 +84,7 @@ class 삼성Tv extends TV {
     }
 }
 
-class LGTv extends TV {
+class LGTv extends TV { // default 접근제어자
     void 게임모드전환() {
         System.out.println("LGTv 게임모드전환!");
     }
