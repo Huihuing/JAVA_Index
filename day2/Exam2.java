@@ -5,8 +5,8 @@ public class Exam2 {
         int time = 74;
         int score = 0;
 
-        for (time = 74; time <= 90; time += 5) {
-            if (time >= 4) {
+        for (int i = time; i <= 90; i += 5) {
+            if (i >= 4) {
                 score++;
             }
         }

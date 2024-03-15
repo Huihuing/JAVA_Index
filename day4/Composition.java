@@ -5,6 +5,8 @@ public class Composition {
         홍길동 a홍 = new 홍길동();
         홍길순 b홍 = new 홍길순();
         이순신주식회사 이주 = new 이순신주식회사();
+
+
         사람 a사람 = new 사람();
         a사람.나이 = 20;
         a사람.a왼팔 = new 팔();
